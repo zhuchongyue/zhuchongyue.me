@@ -47,7 +47,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "zip": "cd build && rm -rf build/build.zip && zip -r build.zip *"
+    "zip": "cd build && rm -rf build/build.zip && zip -r build.zip *",
+    "upload": "scp build/build.zip work@59.110.45.24:/opt/web/zcy"
   },
   "jest": {
     "collectCoverageFrom": [
