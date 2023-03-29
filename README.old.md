@@ -1,2 +1,0 @@
-# zhuchongyue.me
-self site

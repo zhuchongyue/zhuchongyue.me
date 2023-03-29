@@ -1,0 +1,105 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title = "朱崇跃">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">简介</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+      9年开发经验，任职过58、转转、蚂蚁金服、百度。
+      <br>
+      全栈工程师（后端Node.js)。
+      <br>
+      会点Linux,
+      会点Java。
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">教育</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="青岛理工大学"
+      subtitle="2010 - 2014 软件工信"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">工作经历</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+
+    <TimeLineElement
+      title="自由职业者"
+      subtitle="2022/10-至今"
+      desc="自由职业、全栈开发工程师、FreeLancer、Programmer"
+    />
+    
+    <TimeLineElement
+      title="贵州航天云网科技有限公司"
+      subtitle="2022/05-2022/10"
+      desc="贵州工业云网站，(1）前端微服务架构、微服务跨应用全局通信设计、外部系统与微服 务集成设计(2) 前端工程化，多环境编译，前端项目编译打包脚本，持续集成脚本，持续部署方案。工业云码小程序（uniapp + uview-ui）从 0 到 1 搭建小程序架构，配置 uniapp 编译配置，小程序分包， 图片构建优化。"
+    />
+    <TimeLineElement
+      title="自主创业"
+      subtitle="2021/07 - 2022/05"
+      desc="智慧社区系统研发，新能源电站数字化系统"
+    />
+    <TimeLineElement
+      title="百度（搜索前端-阿拉丁工程化/中台负责人）"
+      subtitle="2017/10 - 2021.6"
+      desc="搜索泛POI业务负责人；搜索前端工程化负责人；搜索中台前端负责人"
+    />
+    <TimeLineElement
+      title="蚂蚁金服(支付宝）"
+      subtitle="2017/05 - 2017/09"
+      desc="支付宝标杆小程序Ofo/永安行核心开发者，支付宝亲密付前端开发者"
+    />
+    <TimeLineElement
+      title="58 同城/转转"
+      subtitle="2015/04 - 2017/05"
+      desc="转转微信钱包、微信公众号，微信小程序开发核心开发者。58同城二手业务线前端开发者。"
+    />
+  </div>
+
+  <!-- <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="https://www.efset.org/cert/DxtNKG" target="_blank"> EF SET English Certificate 74/100 (C2 Proficient)</a>
+    </li>
+    <li>
+      <a href="https://certiprof.com/pages/scrum-foundation-professional-certificate-sfpc-en-sp" target="_blank"> Scrum Foundation Professional Certificate (SFPC)</a>
+    </li>
+  </ul> -->
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">技能</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>JavaScript</li>
+    <li>Es6</li>
+    <li>Css(3)</li>
+    <li>Html(5)</li>
+    <li>React</li>
+    <li>Redux</li>
+    <li>React-Router</li>
+    <li>Zustand</li>
+    <li>Vue(2/3)</li>
+    <li>Vue-Router</li>
+    <li>Vuex</li>
+    <li>Pinia</li>
+    <li>Node.js</li>
+    <li>Koa2</li>
+    <li>Express</li>
+    <li>Nest.js</li>
+    <li>MongoDB</li>
+    <li>MySQL</li>
+    <li>Bootstrap</li>
+    <li>Taildwind</li>
+  </ul>
+</BaseLayout>
